@@ -1,6 +1,6 @@
 body {
     font-family: 'Cousine', monospace;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.03em;
     color: #EAE8F4;
     background-color: #282821;
 }
@@ -53,7 +53,7 @@ header {
 }
 
 nav {
-    margin-bottom: 250px;
+    margin-bottom: 198px;
     justify-content: space-between;
     display: flex;
     align-items: flex-end;
@@ -110,3 +110,27 @@ nav ul {
     height: 55%;
     background: linear-gradient(to bottom, transparent 10%, 44%, #282821)
   }
+
+  .main-block__left-text {
+    width: 430px;
+ }
+
+ .main-service {
+    font-size: 20px;
+    line-height: 19px;
+
+ }
+ 
+ .main-block__left-text h1{
+    margin-top: 10px;
+    font-size: 51px;
+    line-height: 47px;
+    font-weight: 600;
+
+ }
+
+ .role {
+    /* margin-top: 5px; */
+    font-size: 34px;
+    line-height: 40px;
+ }
