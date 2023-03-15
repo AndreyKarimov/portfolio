@@ -93,7 +93,7 @@ nav ul {
 }
 
 .main-photo__wrapper {
-    background: url("/resourses/main-photo.jpeg");
+    background: url("../resourses/main-photo.jpeg");
     background-size: 140%;
     background-repeat: no-repeat;
     background-position: 30% 0;
