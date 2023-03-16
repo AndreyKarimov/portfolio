@@ -1,0 +1,56 @@
+/* //TO %
+@function prc($pxOne, $pxTwo) {
+  $result: math.div($pxOne, $pxTwo) * 100%;
+  @return $result;
+}
+
+//REM
+@function rem($px) {
+  $result: math.div($px, 16)+rem;
+  @return $result;
+}
+
+//EM
+@function em($px) {
+  $result: math.div($px, 16)+em;
+  @return $result;
+} */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Cousine', monospace;
+  letter-spacing: -0.03em;
+  color: #EAE8F4;
+  background-color: #282821;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.stop-scroll {
+  overflow: hidden;
+}
+
+/* Контейнер для контента который выходит за рамки стандартного контейнера*/
+/* .conteiner-fluid {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 10px;
+} */
