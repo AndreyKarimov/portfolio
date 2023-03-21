@@ -1,4 +1,8 @@
 
+section {
+    margin-bottom: 150px;
+}
+
 header {
     margin-top: 27px;
 }
@@ -159,7 +163,6 @@ header {
 
 
 .project {
-    padding-top: 150px;
     display: flex;
     flex-direction: column;
 }
@@ -181,13 +184,10 @@ h2 {
     overflow: hidden;
     position: relative;
 }
-.project__item__img__wrapper {
-    /* position: relative; */
-}
+
 .project__item img {
     width: 100%;
     height: 100%;
-    /* object-fit: contain; */
 }
 .project__item:after {
     content: '';
@@ -227,16 +227,17 @@ h2 {
 .view-all-projects {
     margin-top: 80px;
     display: block;
-    width: 582px;
-    height: 153px;
+    width: 100%;
+    height: 100px;
     background: #d1d157;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 35px;
-    line-height: 153px;
+    line-height: 100px;
     text-decoration: none;
     color: #282821;
     text-align: center;
     letter-spacing: -0.04em;
+    transition: 0.5s;
 }
 
 .view-all-projects:hover {
@@ -244,3 +245,45 @@ h2 {
     background-color: #282821;
     border: 2px solid #d1d157;
 }
+
+.my-competencies {
+    font-size: 55px;
+    line-height: 72px;      
+}
+
+.competencies__list {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px 40px;
+}
+
+.competencies__item {
+    min-width: 200px;
+    max-width: 550px;
+}
+
+.competencies__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px; height: 45px;
+    border-radius: 10px;
+    background-color: #d1d157;
+}
+
+.competencies__title {
+    margin-top: 12px;
+    font-size: 35px;
+    line-height: 46px;
+    color: #d1d157;
+
+}
+
+.competencies_dicription {
+    margin-top: 15px;
+    font-size: 22px;
+    line-height: 29px;
+}
+
